@@ -1,0 +1,17 @@
+@import '../../styles/variables';
+
+.button {
+    font-size: 1.375rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--beige);
+    background-color: var(--zian-green);
+    border-radius: 30px;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    padding: 16px;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}

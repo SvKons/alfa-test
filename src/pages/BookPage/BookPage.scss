@@ -1,0 +1,43 @@
+@import '../../styles/variables.scss';
+
+.book-detail {
+    padding: 20px 0;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        color: var(--darknes-grey);
+        margin-top: 50px;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    &__image-container {
+        max-width: 500px;
+        min-width: 330px;
+        width: 100%;
+    }
+
+    &__image {
+        width: 100%;
+    }
+
+    &__title {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    &__author {
+        font-size: 1.5rem;
+    }
+
+    &__description {
+        font-size: 1.375rem;
+        line-height: 1.2;
+    }
+}
