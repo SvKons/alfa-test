@@ -7,6 +7,7 @@ import { store } from './redux/store';
 import BookPage from './pages/BookPage';
 import CreateBook from './pages/CreateBook';
 import BooksPage from './pages/BooksPage';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
